@@ -1,0 +1,4 @@
+Barcode,Item,SupplierID,Quantity,StorageZone,UnitPrice
+616100012345,Premium_Buns,SUPP_KITCH_01,200,Zone_A,15.00
+616100054321,Beef_Patties_100g,SUPP_MEATS_04,150,Zone_Freeze,40.00
+616100099999,Secret_Sauce_Ltr,SUPP_KITCH_01,10,Zone_B,85.00

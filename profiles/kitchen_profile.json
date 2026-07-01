@@ -1,0 +1,22 @@
+{
+  "sector": "Cloud Kitchen",
+  "profile_name": "gulley_grub_v1",
+  "currency": "KES",
+  "reconciliation_rules": {
+    "expected_fee_percentage": {
+      "MPESA_TILL": 0.5,
+      "CASH": 0.0,
+      "UBER_EATS": 25.0,
+      "BOLT_FOOD": 20.0
+    },
+    "leakage_thresholds": {
+      "inventory_to_cash_mismatch_max_allowed": 0.0,
+      "shift_variance_max_allowed_kes": 50.0,
+      "acceptable_spoilage_percentage": 3.0
+    },
+    "matching_keys": {
+      "primary_payment_identifier": "Receipt No",
+      "inventory_deduction_trigger": "Completed"
+    }
+  }
+}
